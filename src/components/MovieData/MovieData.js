@@ -13,7 +13,7 @@ export default function MovieData(){
   const [movie, setMovie] = useState({})
 
     useEffect(() => {
-        fetch(`${API}/allMovies/${_id}`, {
+        fetch(`${API}/allMovies`, {
             method: "GET"
         })
             .then((data) => data.json())
