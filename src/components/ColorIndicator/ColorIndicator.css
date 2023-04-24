@@ -1,0 +1,68 @@
+.attributes-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 16px;
+    cursor: default;
+    border-bottom: 1px solid #f2f2f2;
+}
+.offer-details-container.legends-section {
+    margin-bottom: 0;
+}
+.offer-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 8px;
+    margin-left: -12px;
+    cursor: default;
+}
+.attributes-container .legends-container {
+    display: flex;
+}
+.attributes-container .legends-container .showtimes-legend {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.attributes-container .legends-container .showtimes-legend .legend-icon {
+    padding: 4px;
+    border-radius: 4px;
+    background-color: #4abd5d;
+    margin-right: 8px;
+}
+.attributes-container .legends-container .showtimes-legend .legend-text {
+    color: #717171;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.attributes-container .legends-container .showtimes-legend .legend-icon.fast {
+    background-color: #f60;
+}
+.attributes-container .legends-container .showtimes-legend .legend-text {
+    color: #717171;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.attributes-container .legends-container .showtimes-legend .__subtitle {
+    color: #4abd5d;
+    margin-right: 8px;
+}
+.__subtitle {
+    position: relative;
+    border: 0.8px solid #4abd5d;
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    height: 12px;
+    justify-content: center;
+    display: flex;
+    padding: 1px 1px 0;
+    align-items: center;
+    width: 22px;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}

@@ -1,0 +1,288 @@
+ul .list {
+    zoom: 1;
+    border-bottom: 1px solid #eff1f3;
+    padding: 13px 20px;
+    display: flex;
+    flex-direction: row;
+}
+ul .list:before {
+    content: " ";
+    display: table;
+    line-height: 0;
+}
+ul .list>div:not(.payment-options-text) {
+    float: left;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+}
+ul .list .listing-info {
+    width: 28%;
+    min-width: 250px;
+    font-size: 10px;
+    color: #999;
+}
+ul .list .listing-info .img-container {
+    display: none;
+    position: relative;
+    float: left;
+    width: 40px;
+    margin-top: 5px;
+}
+[class*=icon] {
+    display: inline-block;
+}
+ul .list .listing-info .details {
+    float: left;
+    margin-top: 5px;
+    padding-left: 5px;
+    display: table;
+    width: 100%;
+}
+ul .list .listing-info .details .heart-it {
+    display: table-cell;
+    vertical-align: top;
+    width: 17px;
+    height: 17px;
+    padding-right: 10px;
+}
+ul .list .listing-info .details .heart-it svg {
+    transition: fill .3s;
+    width: 17px;
+    height: 17px;
+    stroke: #999999;
+    fill: #FFFFFF;
+    stroke-width: 5px;
+    cursor: pointer;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+ul .list .listing-info .details .icon-location {
+    display: none;
+    vertical-align: top;
+    width: 15px;
+    height: 15px;
+    padding-right: 5px;
+}
+ul .list .listing-info .details .icon-location svg {
+    width: 15px;
+    fill: #a4a5a7;
+}
+ul .list .listing-info .details .__name {
+    display: table-cell;
+    vertical-align: top;
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 20px;
+    position: relative;
+}
+ul .list .listing-info .details .__name .__title {
+    display: flex;
+}
+ul .list .listing-info .details .__name a {
+    width: 220px;
+    font-weight: 700;
+    color: #333;
+    float: left;
+}
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    text-decoration: none;
+    vertical-align: baseline;
+    background: 0 0;
+}
+.listing-info .info-section {
+    display: flex;
+    margin-left: 6px;
+    float: left;
+    cursor: pointer;
+}
+.listing-info .info-section .venue-info-icon {
+    width: 16px;
+    height: 16px;
+}
+.listing-info .info-section .venue-info-text {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #7d7d7d;
+    margin-left: 4px;
+}
+ul .list .listing-info .details .__name .st-distance._none {
+    display: none;
+}
+ul .list .listing-info .details .__name .st-distance {
+    zoom: 1;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+ul .list .listing-info .details .__name .st-distance .__dis-icon {
+    display: block;
+    width: 17px;
+    height: 17px;
+    float: left;
+}
+ul .list .listing-info .details .__name .st-distance .__dis-icon svg {
+    fill: #999;
+    width: 17px;
+    height: 17px;
+}
+ul .list .listing-info .details .__name .st-distance .__distance {
+    font-size: 12px;
+    position: relative;
+    color: #999;
+    float: left;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+ul .list .listing-info .details .__name .unpaid-mticket-wrapper {
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+}
+ul .list .listing-info .details .__name .__mticket-info {
+    margin-left: -4px;
+}
+ul .list .listing-info .details .__name .__mticket-info{
+    float: left;
+    margin: 5px 15px 0 -4px;
+    cursor: default;
+}
+ul .list .listing-info .details .__name .__mticket-info .icon{
+    cursor: default;
+    display: inline-block;
+    width: 22px;
+    height: 20px;
+}
+ul .list .listing-info .details .__name .__mticket-info .icon svg {
+    fill: #49ba8e;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+ul .list .listing-info .details .__name .__fnb-info {
+    margin-left: 10px;
+}
+ul .list .listing-info .details .__name .__fnb-info{
+    float: left;
+    margin: 5px 15px 0 -4px;
+    cursor: default;
+}
+ul .list .listing-info .details .__name .__fnb-info .icon{
+    cursor: default;
+    display: inline-block;
+    width: 22px;
+    height: 20px;
+}
+ul .list .listing-info .details .__name .__fnb-info .icon svg {
+    fill: #ffa426;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+ul .list>div:not(.payment-options-text) {
+    float: left;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+}
+.showtimes-details-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.offer-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 8px;
+    margin-left: -12px;
+    cursor: default;
+}
+.showtime-pill-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.showtime-pill-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.showtime-pill-container .showtime-pill {
+    border: 1px solid #999;
+    color: #4abd5d;
+    padding: 4px;
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+a {
+    margin: 0;
+    font-size: 100%;
+    text-decoration: none;
+    vertical-align: baseline;
+    background: 0 0;
+}
+.showtime-pill-container .showtime-pill .__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 2px;
+    height: 14px;
+}
+.showtime-pill-container .showtime-pill .__details .__text {
+    margin: 0 auto;
+}
+.showtime-pill-container .showtime-pill .attribute {
+    font-size: 10px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.venue-flags {
+    margin-bottom: 0;
+    padding: 8px 0 0;
+    margin-left: 8px;
+}
+.venue-flags .gold-icon {
+    width: 7px;
+    height: 7px;
+    background: #ffc610;
+    border-radius: 50%;
+}
+.venue-flags .venue-flags-details {
+    vertical-align: middle;
+    margin: 0 8px;
+    color: #6c6c6c;
+}
+.showtimes .wrapper ul .list:before {
+    content: " ";
+    display: table;
+    line-height: 0;
+}
+ul .list .listing-info .details .__name {
+    display: table-cell;
+    vertical-align: top;
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 20px;
+    position: relative;
+}
+

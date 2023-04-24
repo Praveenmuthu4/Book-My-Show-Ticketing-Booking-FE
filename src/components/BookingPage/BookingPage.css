@@ -1,0 +1,155 @@
+.venue-info-wrapper {
+    background: #f2f2f2;
+    height: 113px;
+}
+.wrapper:not(._touch) {
+    max-width: 1240px!important;
+    width: 100%;
+}
+.wrapper, .wrapper-main {
+    min-width: 320px;
+    margin: 0 auto;
+}
+.venue-info-container {
+    background: #fff;
+    padding: 0 12px 20px;
+}
+.cinema-photo-showcase-gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.cinema-name-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 24px 0 15px;
+}
+.heart-icon {
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    display: inline-table;
+    margin-right: 8px;
+    stroke: #333;
+    fill: #fff;
+    stroke-width: 8px;
+    cursor: pointer;
+}
+.venue-heading {
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+}
+.address-wrapper {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+}
+.icon-location {
+    margin-right: 11px;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+.venue-location {
+    font-size: 12px;
+    line-height: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #333;
+}
+.venue-info-container .address-wrapper .map-icon {
+    height: 16px;
+    width: 16px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.map-icon svg>path {
+    fill: #DC3558;
+}
+.details-wrapper {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    cursor: pointer;
+}
+ .details-text {
+    font-size: 14px;
+    line-height: 20px;
+    color: #dc3558;
+}
+.chevron-icon {
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    transition: .5s;
+}
+.cinema-photo-showcase-panel {
+    overflow: hidden;
+    height: 0;
+    transition: height .2s ease-out;
+}
+.cinema-photo-showcase-wrapper {
+    padding-top: 16px;
+}
+.venue-facilities-wrapper {
+    width: 100%;
+    transition: .2s;
+    align-items: center;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+}
+.venue-facility-title.venue-flow {
+    font-size: 16px;
+    padding: 24px 0 18px 16px;
+}
+.venue-facilities-wrapper .venue-facility-title {
+    font-weight: 500;
+    line-height: 16px;
+    color: #000;
+}
+.venue-facilities {
+    display: flex;
+    overflow: auto;
+    padding: 0 0 4px 16px;
+}
+.venue-facility-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70px;
+    margin-right: 5px;
+    flex: 0 0 auto;
+}
+.facility-icon-wrapper {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 8px;
+}
+.facility-icon-wrapper img {
+    object-fit: contain;
+    width: 100%;
+}
+.facility-text {
+    display: table-cell;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000;
+    opacity: .8;
+    text-align: center;
+    word-break: break-word;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: 400;
+    vertical-align: baseline;
+    background: 0 0;
+}

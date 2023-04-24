@@ -1,7 +1,11 @@
 import React from "react";
 import './TicketBanner.css'
+import { useNavigate } from "react-router";
 
 export default function TicketBanner() {
+
+  const navigate = useNavigate();
+
   return (
     <div>
       <section className="sc-qswwm9-0 ljnioe">
@@ -141,7 +145,7 @@ export default function TicketBanner() {
                     className="sc-8f9mtj-0 sc-8f9mtj-1 sc-1vmod7e-0 gsJmXR"
                   >
                     <div className="sc-1vmod7e-2 iBonLL">
-                      <span className="book-ticket-span">
+                      <span className="book-ticket-span" onClick={()=>navigate('/ticketBooking')}>
                         Book tickets
                       </span>
                     </div>

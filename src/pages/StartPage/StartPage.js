@@ -54,6 +54,8 @@ export default function StartPage() {
                     src="//in.bmscdn.com/m6/images/common-modules/regions/ncr.png"
                     alt="NCR"
                     className="sc-fQkuQJ ciyWra"
+                    onClick={()=>navigate('/explore/home/chennai')}
+
                   />
                 </div>
                 <span className="sc-dRCTWM JQbba">Delhi-NCR</span>
@@ -66,6 +68,8 @@ export default function StartPage() {
                     src="//in.bmscdn.com/m6/images/common-modules/regions/bang.png"
                     alt="BANG"
                     className="sc-fQkuQJ ciyWra"
+                    onClick={()=>navigate('/explore/home/chennai')}
+
                   />
                 </div>
                 <span className="sc-dRCTWM JQbba">Bengaluru</span>
@@ -78,6 +82,8 @@ export default function StartPage() {
                     src="//in.bmscdn.com/m6/images/common-modules/regions/hyd.png"
                     alt="HYD"
                     className="sc-fQkuQJ ciyWra"
+                    onClick={()=>navigate('/explore/home/chennai')}
+
                   />
                 </div>
                 <span className="sc-dRCTWM JQbba">Hyderabad</span>
@@ -90,6 +96,8 @@ export default function StartPage() {
                     src="//in.bmscdn.com/m6/images/common-modules/regions/ahd.png"
                     alt="AHD"
                     className="sc-fQkuQJ ciyWra"
+                    onClick={()=>navigate('/explore/home/chennai')}
+
                   />
                 </div>
                 <span className="sc-dRCTWM JQbba">Ahmedabad</span>
@@ -102,6 +110,8 @@ export default function StartPage() {
                     src="//in.bmscdn.com/m6/images/common-modules/regions/chd.png"
                     alt="CHD"
                     className="sc-fQkuQJ ciyWra"
+                    onClick={()=>navigate('/explore/home/chennai')}
+
                   />
                 </div>
                 <span className="sc-dRCTWM JQbba">Chandigarh</span>
@@ -127,6 +137,8 @@ export default function StartPage() {
                     src="//in.bmscdn.com/m6/images/common-modules/regions/pune.png"
                     alt="PUNE"
                     className="sc-fQkuQJ ciyWra"
+                    onClick={()=>navigate('/explore/home/chennai')}
+                    
                   />
                 </div>
                 <span className="sc-dRCTWM JQbba">Pune</span>
@@ -139,6 +151,8 @@ export default function StartPage() {
                     src="//in.bmscdn.com/m6/images/common-modules/regions/kolk.png"
                     alt="KOLK"
                     className="sc-fQkuQJ ciyWra"
+                    onClick={()=>navigate('/explore/home/chennai')}
+
                   />
                 </div>
                 <span className="sc-dRCTWM JQbba">Kolkata</span>
@@ -151,6 +165,8 @@ export default function StartPage() {
                     src="//in.bmscdn.com/m6/images/common-modules/regions/koch.png"
                     alt="KOCH"
                     className="sc-fQkuQJ ciyWra"
+                    onClick={()=>navigate('/explore/home/chennai')}
+
                   />
                 </div>
                 <span className="sc-dRCTWM JQbba">Kochi</span>

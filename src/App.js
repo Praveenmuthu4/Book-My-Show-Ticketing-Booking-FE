@@ -5,6 +5,8 @@ import StartPage from './pages/StartPage/StartPage';
 import Movies from './components/Movies/Movies';
 import { AddMovie } from './components/AddMovies/AddMovie';
 import TicketBanner from './components/TicketBanner/TicketBanner';
+import TicketBooking from './components/TicketBooking/TicketBooking';
+import BookingPage from './components/BookingPage/BookingPage';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path='/allMovies' element={<Movies/>}></Route>
         <Route path='/movies' element={<AddMovie/>}></Route>
         <Route path='/ticketingBanner' element={<TicketBanner/>}></Route>
+        <Route path='/ticketBooking' element={<TicketBooking/>}></Route>
+        <Route path='/bookingSelection' element={<BookingPage/>}></Route>
       </Routes>
     </div>
   );
