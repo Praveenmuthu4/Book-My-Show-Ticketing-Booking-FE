@@ -1,0 +1,84 @@
+.bkf-header {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    text-align: left;
+    color: #fff;
+    background: #1f2533;
+}
+.st-back-btn {
+    width: 20px;
+    height: 20px;
+    display: block;
+    cursor: pointer;
+    top: 20px;
+    left: 10px;
+    z-index: 1;
+    position: absolute;
+}
+.header-container {
+    position: relative;
+    zoom: 1;
+    min-width: 320px;
+    padding: 9px 0 9px 30px;
+    background: #1f2533;
+    height: 75px;
+}
+.header-container:before {
+    content: " ";
+    display: table;
+    line-height: 0;
+}
+.bkf-header h2 {
+    font-size: 20px;
+    color: #49ba8e;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 15px;
+    float: left;
+}
+span.__event-name {
+    max-width: 500px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.bkf-layout .bkf-header h2 span {
+    display: inline-block;
+}
+span.__event-name a {
+    font-size: 14px;
+    color: #fff;
+}
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: baseline;
+    background: 0 0;
+}
+.__event-details {
+    max-width: 500px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 18px;
+    color: #c6c6c9;
+    font-size: 12px;
+    width: 100%;
+}
+.bkf-layout .bkf-header h2 span {
+    display: inline-block;
+}
+.text-adult-movie {
+    width: 100%;
+    color: #f84464;
+    display: inline-block;
+    font-size: 12px;
+    padding: 8px 16px;
+    background: #fafafa;
+    position: relative;
+}

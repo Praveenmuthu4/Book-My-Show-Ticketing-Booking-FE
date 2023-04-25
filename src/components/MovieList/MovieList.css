@@ -1,0 +1,152 @@
+ul{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: 400;
+    vertical-align: baseline;
+    background: 0 0;
+    list-style: none;
+}
+.list {
+    zoom: 1;
+    border-bottom: 1px solid #eff1f3;
+    padding: 13px 16px;
+    display: block;
+}
+.list::before {
+    content: " ";
+    display: table;
+    line-height: 0;
+}
+.listing-info {
+    font-size: 10px;
+    color: #999;
+    width: 28%;
+    min-width: 250px;
+}
+.list>div {
+    font-weight: 400;
+}
+.img-container {
+    display: none;
+    position: relative;
+    float: left;
+    width: 40px;
+    margin-top: 5px;
+}
+ .__img {
+    width: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 40px;
+}
+img{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: 400;
+    vertical-align: baseline;
+    background: 0 0;
+}
+.details {
+    float: left;
+    margin-top: 5px;
+    padding-left: 5px;
+    display: table;
+    width: 100%;
+}
+.__name {
+    display: inline-block;
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 20px;
+    position: relative;
+}
+.__name a {
+    font-weight: 700;
+    color: #333;
+}
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    text-decoration: none;
+    vertical-align: baseline;
+    background: 0 0;
+}
+.eventInfo {
+    float: left;
+    margin-top: 5px;
+    padding-left: 10px;
+    display: table;
+}
+.eventInfo a {
+    color: #dc3558;
+}
+.list .body.__cn-list {
+    padding-left: 10px;
+}
+.body {
+    width: 70%;
+    flex-wrap: wrap;
+    display: flex;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+.list::after {
+    content: " ";
+    display: table;
+    line-height: 0;
+}
+.body>div {
+    margin: 8px;
+}
+.showtime-pill-container {
+    margin: 8px;
+    width: calc(100% / 3 - 16px);
+    max-width: 110px;
+}
+.list .body>div._available .data-enabled {
+    position: relative;
+}
+.list .body>div._available a {
+    color: #4bbd5d;
+}
+.showtime-pill-container .showtime-pill {
+    border: 1px solid #999;
+    padding: 4px;
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.showtime-pill .__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 2px;
+    height: 14px;
+}
+.showtime-pill .__details .__text {
+    margin: 0 auto;
+    color: #4bbd5d;
+
+}
+.showtime-pill .attribute {
+    font-size: 10px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

@@ -1,8 +1,7 @@
 import React from "react";
 import "./BookingPage.css";
 import Header from "../Header/Header";
-import TopBottomContent from "../TopContent/TopBottomContent";
-import ColorIndicator from "../ColorIndicator/ColorIndicator";
+import MovieList from "../MovieList/MovieList";
 
 export default function BookingPage() {
   return (
@@ -179,6 +178,7 @@ export default function BookingPage() {
         </div>
       </div>
     </div>
+    <MovieList/>
     </div>
   );
 }
